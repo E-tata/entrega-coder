@@ -1,0 +1,16 @@
+@mixin tamanio ($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+@mixin flex-normal {
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+@mixin flex-mixto ($direction, $justify, $aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}
