@@ -1,0 +1,45 @@
+/* home*/
+
+    main {
+ background-color: rgb(90, 84, 84);  
+ 
+ 
+
+
+
+
+
+h1{
+    color: rgb(255, 254, 254);
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    
+}
+
+h2 { 
+    color: rgb(255, 254, 254);
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: black 1px none;
+    margin: auto;
+    padding-bottom: 20px;
+} } 
+
+.parrafo-home {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: right;
+    margin-right: 3%;
+    
+   
+}
+
+.pagina-principal{
+    background-image: url(../media/home.jpg) ;
+    height: 700px ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
