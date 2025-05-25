@@ -238,8 +238,8 @@ ol {
 .medida-imagen 
 {margin-left: 35%;  
 
-    height: 300px;                                              
-    width: 480px;
+    height: 90px;                                              
+    width: 5690;
 }
 
 
@@ -342,7 +342,8 @@ main section ul iframe{
     flex-direction: column                                                                                                      ;
 }
 .medida-imagen {
-   margin-left: 0%;
+   justify-content: center;
+    margin-left: 0%;
     width: 100%;
     height: 100%;
 }
