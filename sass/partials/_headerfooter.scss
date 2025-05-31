@@ -15,21 +15,20 @@ header {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-
-   .encabezado
-              {
-    color: rgb(255, 255, 255);
+.animate__flipInX
+{ color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
-    text-align: left;
+    text-align: left;}
+
    
-
+   
 }
 
 
 
 
-}
+
 nav{ 
  width: 50%;
 }
