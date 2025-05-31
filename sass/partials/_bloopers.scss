@@ -1,5 +1,7 @@
-
-    /*bloopers*/
+@use "./variables" as* ;
+   
+   
+   /*bloopers*/
 
 .bloopers-titulo {
     color: rgb(253, 254, 255);
@@ -22,17 +24,11 @@
 }
 
 .videos-bloopers {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+   @include flex ;
 }
 
 .videos-bloopers1 { 
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    @include flex ;
 }
 
 .medida-imagen 
