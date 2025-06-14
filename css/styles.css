@@ -289,6 +289,15 @@ label .input-cuadro {
     width: 100%;
     height: 100%;
   }
+  .videos-peliculas {
+    flex-direction: column;
+  }
+  .videos-peliculas1 {
+    flex-direction: column;
+  }
+  .videos-peliculas2 {
+    flex-direction: column;
+  }
   /*bloopers */
   section ul iframe {
     width: 100%;
