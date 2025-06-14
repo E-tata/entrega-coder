@@ -227,21 +227,24 @@ label .input-cuadro {
 .videos-peliculas {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .videos-peliculas1 {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .videos-peliculas2 {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px;
 }
 
