@@ -1,52 +1,50 @@
-@use "./variables" as* ;
-   
-   
-   /*bloopers*/
+@use "./variables" as *;
+
+/* ----------------------------------------------
+ * BLOOPERS - ESTILOS PARA SECCIÓN DE VIDEOS Y GALERÍA
+ * Conserva estilo y coherencia visual para una experiencia divertida
+ * ---------------------------------------------- */
+
 .animate__hinge {
-     color: rgb(253, 254, 255);
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    border: rgb(90, 84, 84) 1px none;
-    padding-bottom: 20px;
-    margin: auto;
+  color: rgb(253, 254, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border: rgb(90, 84, 84) 1px none;
+  padding-bottom: 20px;
+  margin: auto;
 }
+
 .bloopers-titulo {
-    color: rgb(253, 254, 255);
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    border: rgb(90, 84, 84) 1px none;
-    padding-bottom: 20px;
-    margin: auto;
+  color: rgb(253, 254, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border: rgb(90, 84, 84) 1px none;
+  padding-bottom: 20px;
+  margin: auto;
 }
 
 .galeria-titulo {
-    color: rgb(255, 255, 255);
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    border: rgb(90, 84, 84) 1px none;
-    padding: 20px;
-    margin: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  border: rgb(90, 84, 84) 1px none;
+  padding: 20px;
+  margin: 20px;
 }
 
 .videos-bloopers {
-   @include flex ;
+  @include flex;
 }
 
-.videos-bloopers1 { 
-    @include flex ;
+.videos-bloopers1 {
+  @include flex;
 }
 
-.medida-imagen 
-
-{margin-left: 35%;  
-
-    height: 315px;
-
-    width: 560px;
-    
- 
-
+.medida-imagen {
+  margin-left: 35%;
+  height: 315px;
+  width: 560px;
 }

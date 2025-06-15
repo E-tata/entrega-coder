@@ -1,34 +1,46 @@
+@use "./variables" as *;
 
-@use "./variables" as* ;
-    /*peliculas*/
+/* Peliculas */
 
-.peliculas-titulo {
-    color: rgb(252, 253, 253);
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    text-align: center;
-}
+main {
+  &.color-change-3x {
+    section {
+      h1 {
+        color: rgb(252, 253, 253);
+        font-family: "Montserrat", sans-serif;
+        font-size: 45px;
+        text-align: center;
+      }
 
-.videos-peliculas {@include flex1;
+      ul {
+        .focus-in-expand-fwd {
+          animation: focus-in-expand-fwd 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
-}
+          .videos-peliculas,
+          .videos-peliculas1,
+          .videos-peliculas2 {
+            @include flex1;
 
-.videos-peliculas1 {
-    @include flex1;
-}
-.videos-peliculas2 {
-    @include flex1;
-}
+            .box-pelicula {
+              border: rgb(90, 84, 84) 1px none;
+              padding: 1%;
+              margin: 1%;
+              color: rgb(253, 254, 255);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              text-align-last: auto;
+            }
 
-.box-pelicula{
-    border: rgb(90, 84, 84)  1px none;
-    padding: 1%;
-    margin: 1%;
-    color: rgb(253, 254, 255);
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    text-align-last: auto;
- 
+            iframe {
+              width: 560px;
+              height: 315px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 .focus-in-expand-fwd {
 	-webkit-animation: focus-in-expand-fwd 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
