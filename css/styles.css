@@ -52,7 +52,7 @@ li {
 footer {
   background-color: #420000;
   border: #420000 1px none;
-  padding: 1%;
+  padding: 2%;
   margin: auto;
 }
 
@@ -73,6 +73,8 @@ footer section {
 /* home*/
 main {
   background-color: rgb(90, 84, 84);
+  flex: 1;
+  padding: 20px;
 }
 main h1 {
   color: rgb(255, 254, 254);
@@ -92,14 +94,14 @@ main h2 {
 
 .parrafo-home {
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 23px;
   text-align: right;
   margin-right: 3%;
 }
 
 .pagina-principal {
   background-image: url(../media/home.jpg);
-  height: 700px;
+  height: 63vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -266,7 +268,8 @@ label .input-cuadro {
 .videos-peliculas {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
   padding: 1px;
   margin: 0%;
 }
@@ -274,7 +277,8 @@ label .input-cuadro {
 .videos-peliculas1 {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
   padding: 1px;
   margin: 0%;
 }
@@ -282,7 +286,8 @@ label .input-cuadro {
 .videos-peliculas2 {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
   padding: 1px;
   margin: 0%;
 }
